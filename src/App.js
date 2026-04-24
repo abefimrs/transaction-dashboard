@@ -5,6 +5,7 @@ import SummaryBar from './components/SummaryBar';
 import TransactionCard from './components/TransactionCard';
 import AddTransactionForm from './components/TransactionForm';
 
+
 function App() {
   // useState — React's way of storing data that can change
     const [transactions, setTransactions] = useState([]);
